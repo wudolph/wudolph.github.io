@@ -2,7 +2,7 @@
   "name": "auction-website",
   "private": true,
   "version": "3.0.1",
-  "homepage": "https://wudolph.github.io",
+  "homepage": "https://wudolph.github.io/auction-website",
   "type": "module",
   "scripts": {
     "dev": "vite",
