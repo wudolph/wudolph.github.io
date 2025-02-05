@@ -47,6 +47,8 @@ jobs:
     # Specify a runner + deployment step
     runs-on: ubuntu-latest
     steps:
+      - name: Configure pages
+        uses: actions/configure-pages@v4
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
